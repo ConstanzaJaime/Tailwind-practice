@@ -12,21 +12,35 @@
 
 <body class="bg-gray-100 flex">
     <div class="w-full flex flex-row">
-        <div class="w-1/2 bg-gray-200 flex justify-center">
-            <div class="flex flex-col w-4/5 py-8 ">
-                <h3>Let’s get you started.</h3>
-                <p>Simply fill out the form below to access the Pearson Anytime platform.</p>
+        <div class="w-full lg:w-2/5 bg-gray-200 flex justify-center">
+            <div class="flex flex-col w-4/5 py-8 max-w-sm">
+                <h3 class="text-3xl mb-6">Let’s get you started.</h3>
+                <p class="mb-8">Simply fill out the form below to access the Pearson Anytime platform.</p>
                 <p>Full name</p>
-                <input type="text" placeholder="full name" class="rounded h-13 mt-4 px-2 py-1 border border-gray-300 focus:ring-2 focus:ring-blue-600">
-                <select name="" id="" class="rounded mt-4 px-2 py-1">
+                <input type="text" placeholder="Full name" class="rounded mb-4 h-13 px-2 py-1 border border-gray-300 focus:ring-2 focus:ring-blue-600">
+                <p>Age</p>
+                <select name="" id="" class="rounded mb-4 px-2 py-1">
                     <option value="">-18</option>
                     <option value="">18-60</option>
-                    <option value="">+60</option>
+                    <option value="">+60</option> 
                 </select>
+                <p>Country of resident</p>
+                <select name="" id="" class="rounded mb-4 px-2 py-1">
+                    <option value="">Germany</option>
+                    <option value="">United Kingdom</option>
+                    <option value="">Italy</option> 
+                </select>
+                <p>Email</p>
+                <input type="text" placeholder="Email" class="rounded mb-4 h-13 px-2 py-1 border border-gray-300 focus:ring-2 focus:ring-blue-600">
+                <p>Password</p>
+                <input type="text" placeholder="Password" class="rounded mb-4 h-13 px-2 py-1 border border-gray-300 focus:ring-2 focus:ring-blue-600">
+                <p>confirm password</p>
+                <input type="text" placeholder="Password" class="rounded mb-4 h-13 px-2 py-1 border border-gray-300 focus:ring-2 focus:ring-blue-600">
                 <button class="bg-black text-white rounded-full mt-6 px-2 py-1">Sign up</button>
             </div>
         </div>
-        <div class="w-1/2 bg-black"></div>
+        <div class="w-3/5 bg-black h-screen justify-center hidden lg:flex">
+        <img src="Image/shapes.png" alt="" class="flex flex-col max-h-screen w-auto"></div>
     </div>
 </body>
 
